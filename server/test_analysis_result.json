@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "filename": "data.xlsx",
+  "excel_summary": {
+    "total_sheets": 5,
+    "main_sheet_rows": 5,
+    "main_sheet_columns": [
+      "Date",
+      "Daily Sales (THB)"
+    ],
+    "data_types": {
+      "Date": "datetime64[ns]",
+      "Daily Sales (THB)": "int64"
+    },
+    "missing_values": {
+      "Date": 0,
+      "Daily Sales (THB)": 0
+    },
+    "numeric_columns": [
+      "Daily Sales (THB)"
+    ],
+    "date_columns": [
+      "Date"
+    ],
+    "categorical_columns": []
+  },
+  "ai_analysis": {
+    "timestamp": "2025-06-13 03:48:48",
+    "data_processed": {
+      "rows": 5,
+      "columns": 2,
+      "sheets": 5
+    },
+    "ai_insights": {
+      "analysis": "{'value': 'The latest searches did not return relevant direct data on current retail sales trends or sales forecasting specific to June 2025. The terms queried mostly returned dictionary definitions for \"query.\" Given the limited historical sales data provided (only 5 days), I will base the analysis primarily on the available sales data trends and general knowledge of retail market seasonality and strategies, combined with assumptions from typical small-scale sales datasets.\\n\\nI will now provide a comprehensive business data analysis and recommendations as requested in the structured JSON format.\\n\\n---\\n\\n{\\n  \"sales_predictions\": {\\n    \"forecast_summary\": \"The short-term sales data shows an increasing trend in daily sales with an average of 1150 THB and a max of 1400 THB over the last 5 days. Although data is limited, the positive trend suggests moderate growth potential in the near term. Over the next 3-6 months, assuming stable market conditions and no major disruptions, a moderate increase in sales is expected, possibly in the range of 5-10% monthly growth if promotional strategies are implemented.\",\\n    \"top_performing_products\": [\"Currently, individual product data is not provided. Aggregate daily sales show peaks on days with 1400 THB sales.\"],\\n    \"declining_products\": [\"Not identifiable due to lack of product-specific data.\"],\\n    \"seasonal_insights\": \"With sales data captured in early June, typical retail seasonality could affect sales trends. Depending on business type, mid-year promotions or events might enhance sales. No obvious seasonal dips or peaks are noted from the limited data.\",\\n    \"revenue_projections\": {\\n      \"next_3_months\": \"Estimated revenue increase of 5-10% per month given stable conditions and marketing actions.\",\\n      \"next_6_months\": \"Sustained growth could lead to cumulative revenue increase of approximately 35-60% over 6 months, assuming no supply chain disruptions and effective promotional campaigns.\"\\n    }\\n  },\\n  \"promotion_suggestions\": {\\n    \"immediate_actions\": [\\n      \"Introduce targeted promotions on lower sales days to balance daily sales rates.\",\\n      \"Use flexible discounts with a cap of 5-10% to attract price-sensitive customers without eroding margins.\"\\n    ],\\n    \"seasonal_campaigns\": [\\n      \"Plan mid-year sales events around June-July to capture buyer interest.\",\\n      \"Leverage local holidays or events for timed promotions.\"\\n    ],\\n    \"bundle_opportunities\": [\\n      \"Combine complementary products to increase average transaction size (specific products unavailable for detailed bundling).\",\\n      \"Create value packs or \\'buy 2, get 1 free\\' offers for slower moving inventory (if any identified).\"\\n    ],\\n    \"pricing_recommendations\": {\\n      \"dynamic_pricing\": \"Monitor daily sales trends weekly and adjust prices or discounts accordingly to optimize revenue.\",\\n      \"value_pricing\": \"Provide entry-level pricing options or tiered discounts for bulk purchases.\"\\n    }\\n  },\\n  \"stock_management\": {\\n    \"reorder_recommendations\": [\"Cannot specify reorder points without inventory or product-level data.\"],\\n    \"overstocked_items\": [\"Insufficient data available.\"],\\n    \"critical_stock_levels\": [\"Insufficient data available.\"],\\n    \"inventory_optimization\": {\\n      \"suggestions\": \"Implement basic inventory tracking to capture stock levels regularly.\",\\n      \"forecast_driven_reordering\": \"Align reorder quantities with sales forecasts for better inventory turnover.\"\\n    }\\n  },\\n  \"market_insights\": {\\n    \"industry_trends\": \"Retail sales exhibit steady growth in 2025 with emphasis on digital marketing and flexible promotions. Sustainability and experiential buying continue gaining traction.\",\\n    \"competitor_analysis\": \"Data not provided; recommend competitive pricing audits and market share monitoring.\",\\n    \"market_opportunities\": [\\n      \"Enhance online presence and digital sales channels.\",\\n      \"Leverage data analytics for personalized promotional offers.\",\\n      \"Explore bundle offers and seasonal campaigns.\"\\n    ],\\n    \"external_factors\": \"General inflationary pressures and supply chain uncertainties may impact costs. Consumer sentiment remains cautiously optimistic in mid-2025.\"\\n  },\\n  \"actionable_recommendations\": {\\n    \"immediate_actions\": [\\n      \"Start collecting more detailed product-level sales and inventory data.\",\\n      \"Introduce small-scale promotional offers on off-peak sales days.\"\\n    ],\\n    \"short_term_strategy\": [\\n      \"Plan and execute mid-year promotional campaigns.\",\\n      \"Implement basic inventory tracking system.\",\\n      \"Begin dynamic pricing trials based on daily sales trends.\"\\n    ],\\n    \"long_term_planning\": [\\n      \"Develop comprehensive sales forecasting models with more historical data.\",\\n      \"Integrate advanced inventory management systems.\",\\n      \"Expand product range based on market research and customer feedback.\"\\n    ]\\n  }\\n}\\n\\nIf you would like, I can assist with more detailed analysis once additional product-level and inventory data are provided, or further market-specific details are shared.', 'annotations': []}"
+    },
+    "confidence_score": 50.0,
+    "recommendations_summary": []
+  },
+  "timestamp": "2025-06-13T03:48:48.447480"
+}
